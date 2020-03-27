@@ -14,7 +14,8 @@ export default class App extends Component {
     sampleImageURLs: ['https://drive.google.com/uc?id=1IyVHYIGVz7ENggzYh3tn6OrbjqXzwloj',
                       'https://drive.google.com/uc?id=1VbIKLM0JT4SFO5d-sDXYNa0JbcFCm-gk',
                       'https://drive.google.com/uc?id=1e7LErL-c78sCsa3y9Rd_wpD4T4MiaiKn',
-                      'https://drive.google.com/uc?id=1_BTB34MS6AAX3bjy91b6Gfvx2E08w4qn']
+                      'https://drive.google.com/uc?id=1_BTB34MS6AAX3bjy91b6Gfvx2E08w4qn',
+                    'https://drive.google.com/uc?id=1IDjIhH5HZrnR32JT_TeUtmhib1KaWp4I']
   }
 
   fetchdata = (formdata)=> {
@@ -25,7 +26,7 @@ export default class App extends Component {
       formdata = JSON.stringify({"url": formdata})
     }
 
-    const myRequest = new Request('http://f62f0a33.ngrok.io/classify', {
+    const myRequest = new Request('http://7964db69.ngrok.io/classify', {
       method: 'POST',
       body: formdata,
       // cache: 'default',
@@ -66,7 +67,7 @@ export default class App extends Component {
         case uploading:
           return <Spinner />
         case image !== null:
-          return <img src={this.state.image} alt='' style={{height: 300, width: 500}}/>
+          return <img src={this.state.image} alt='' style={{height: 300}}/>
         default:
           return <img style={{opacity: 0.5}} src={placeholderImg} alt=''/>
       }
