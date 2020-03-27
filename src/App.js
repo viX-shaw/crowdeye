@@ -26,7 +26,7 @@ export default class App extends Component {
       formdata = JSON.stringify({"url": formdata})
     }
 
-    const myRequest = new Request('http://7964db69.ngrok.io/classify', {
+    const myRequest = new Request('https://7964db69.ngrok.io/classify', {
       method: 'POST',
       body: formdata,
       // cache: 'default',
