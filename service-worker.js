@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/crowdeye/precache-manifest.3679de812c8de3106d83710a568fc551.js"
+  "/crowdeye/precache-manifest.b092505d9dd4aee877a745f0f968a328.js"
 );
 
 self.addEventListener('message', (event) => {
