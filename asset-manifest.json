@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/crowdeye/static/css/main.d1b05096.chunk.css",
-    "main.js": "/crowdeye/static/js/main.deb7c890.chunk.js",
-    "main.js.map": "/crowdeye/static/js/main.deb7c890.chunk.js.map",
+    "main.css": "/crowdeye/static/css/main.349f1a05.chunk.css",
+    "main.js": "/crowdeye/static/js/main.feacc42a.chunk.js",
+    "main.js.map": "/crowdeye/static/js/main.feacc42a.chunk.js.map",
     "runtime-main.js": "/crowdeye/static/js/runtime-main.bd510ddb.js",
     "runtime-main.js.map": "/crowdeye/static/js/runtime-main.bd510ddb.js.map",
     "static/js/2.f9ab193d.chunk.js": "/crowdeye/static/js/2.f9ab193d.chunk.js",
     "static/js/2.f9ab193d.chunk.js.map": "/crowdeye/static/js/2.f9ab193d.chunk.js.map",
     "index.html": "/crowdeye/index.html",
-    "precache-manifest.d58a9c1c744b0a2e235b3f0195a53387.js": "/crowdeye/precache-manifest.d58a9c1c744b0a2e235b3f0195a53387.js",
+    "precache-manifest.9806a59c5ce65c5d63ac371d045806ee.js": "/crowdeye/precache-manifest.9806a59c5ce65c5d63ac371d045806ee.js",
     "service-worker.js": "/crowdeye/service-worker.js",
-    "static/css/main.d1b05096.chunk.css.map": "/crowdeye/static/css/main.d1b05096.chunk.css.map",
+    "static/css/main.349f1a05.chunk.css.map": "/crowdeye/static/css/main.349f1a05.chunk.css.map",
     "static/js/2.f9ab193d.chunk.js.LICENSE.txt": "/crowdeye/static/js/2.f9ab193d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.bd510ddb.js",
     "static/js/2.f9ab193d.chunk.js",
-    "static/css/main.d1b05096.chunk.css",
-    "static/js/main.deb7c890.chunk.js"
+    "static/css/main.349f1a05.chunk.css",
+    "static/js/main.feacc42a.chunk.js"
   ]
 }
