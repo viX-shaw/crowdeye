@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8f36eb6cc6a6bb4865f8b531128aab21",
+    "revision": "4f226c28877e808530df8bca41bcd99d",
     "url": "/crowdeye/index.html"
   },
   {
-    "revision": "25491e53e1089c35a547",
+    "revision": "a1e181df589db3cc5ae3",
     "url": "/crowdeye/static/css/main.349f1a05.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/crowdeye/static/js/2.f9ab193d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "25491e53e1089c35a547",
-    "url": "/crowdeye/static/js/main.feacc42a.chunk.js"
+    "revision": "a1e181df589db3cc5ae3",
+    "url": "/crowdeye/static/js/main.672cc975.chunk.js"
   },
   {
     "revision": "ace2a2fa3770774179b2",
