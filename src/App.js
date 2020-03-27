@@ -26,7 +26,7 @@ export default class App extends Component {
       formdata = JSON.stringify({"url": formdata})
     }
 
-    const myRequest = new Request('https://7964db69.ngrok.io/classify', {
+    const myRequest = new Request('http://localhost:5000/classify', {
       method: 'POST',
       body: formdata,
       // cache: 'default',
@@ -67,7 +67,7 @@ export default class App extends Component {
         case uploading:
           return <Spinner />
         case image !== null:
-          return <img src={this.state.image} alt='' style={{height: 300}}/>
+          return <img src={this.state.image} alt='' style={{height: 300, maxWidth: "100%"}}/>
         default:
           return <img style={{opacity: 0.5}} src={placeholderImg} alt=''/>
       }
@@ -78,7 +78,8 @@ export default class App extends Component {
         <div style={{ flex: 1, padding: 5, justifyContent: "center" ,boxShadow: "0px 3px 10px 1px #9E9E9E"}}>
           <h1>CrowdEye</h1>
         </div>
-        <div style={{ display: "flex" }}>
+        {/* <div className="container"> */}
+        <div style={{ display: "flex", flexDirection: "column" }}>
           <div style={{ flex: "50%", padding: 10}}>
             <h2>Test on Sample Images</h2>
               {
@@ -101,6 +102,7 @@ export default class App extends Component {
           {/* <p style={{backgroundColor: "green"}}>asdvvnjdfv sdfdfk</p> */}
         </div>
       </div>
+      // </div>
     )
   }
 }
