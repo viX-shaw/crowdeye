@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/crowdeye/static/css/main.d1b05096.chunk.css",
-    "main.js": "/crowdeye/static/js/main.508adab4.chunk.js",
-    "main.js.map": "/crowdeye/static/js/main.508adab4.chunk.js.map",
+    "main.js": "/crowdeye/static/js/main.deb7c890.chunk.js",
+    "main.js.map": "/crowdeye/static/js/main.deb7c890.chunk.js.map",
     "runtime-main.js": "/crowdeye/static/js/runtime-main.bd510ddb.js",
     "runtime-main.js.map": "/crowdeye/static/js/runtime-main.bd510ddb.js.map",
     "static/js/2.f9ab193d.chunk.js": "/crowdeye/static/js/2.f9ab193d.chunk.js",
     "static/js/2.f9ab193d.chunk.js.map": "/crowdeye/static/js/2.f9ab193d.chunk.js.map",
     "index.html": "/crowdeye/index.html",
-    "precache-manifest.b092505d9dd4aee877a745f0f968a328.js": "/crowdeye/precache-manifest.b092505d9dd4aee877a745f0f968a328.js",
+    "precache-manifest.d58a9c1c744b0a2e235b3f0195a53387.js": "/crowdeye/precache-manifest.d58a9c1c744b0a2e235b3f0195a53387.js",
     "service-worker.js": "/crowdeye/service-worker.js",
     "static/css/main.d1b05096.chunk.css.map": "/crowdeye/static/css/main.d1b05096.chunk.css.map",
     "static/js/2.f9ab193d.chunk.js.LICENSE.txt": "/crowdeye/static/js/2.f9ab193d.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.bd510ddb.js",
     "static/js/2.f9ab193d.chunk.js",
     "static/css/main.d1b05096.chunk.css",
-    "static/js/main.508adab4.chunk.js"
+    "static/js/main.deb7c890.chunk.js"
   ]
 }
