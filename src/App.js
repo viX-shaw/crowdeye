@@ -74,22 +74,23 @@ export default class App extends Component {
         case uploading:
           return <Spinner />
         case image !== null:
-          return <img src={this.state.image} alt='' style={{height: 300, maxWidth: "100%"}}/>
+          return <img src={this.state.image} alt='' style={{ maxWidth: "100%",width:400}}/>
         default:
-          return <img style={{opacity: 0.5}} src={placeholderImg} alt=''/>
+          return <div><h6></h6></div>
       }
     }
 
     return (
       <div>
         <div style={{ flex: 1, padding: 5, justifyContent: "center" }}>
-          <h1>CrowdEye</h1>
+          <h1 style={{marginBottom:5}}>CuMA</h1>
+	    <h6 style={{marginTop: 3}}>Curfew Monitoring Assistant</h6>
         </div>
         {/* <div className="container"> */}
         <div style={{flex: "50%", backgroundColor: "green"}}>
             {
               !this.state.image ?
-              <h2 style={{color: "white", padding: 20}}>Select an Image from the list below</h2>
+              <h2 style={{color: "white", padding: 20,textAlign: "center"}}>Select an Image from the list below</h2>
               :
               <h2 style={{color: "white", padding: 20}}>Result</h2>
             }
@@ -103,10 +104,10 @@ export default class App extends Component {
               {
                 this.state.sampleImageURLs.map((imgpath, idx) =>{
                   if(this.state.idx === idx){
-                    const style = {padding: 5, cursor:"pointer", width:100, border: '1px solid #021a40'} 
+                    const style = {padding: 5, cursor:"pointer", width:100, height:100, border: '1px solid #021a40'} 
                     return <img src={imgpath} alt='' onClick={()=>this.fetchdata(imgpath, idx)} style={style}/>
                   }else{
-                    const style = {padding: 5, cursor:"pointer", width:100} 
+                    const style = {padding: 5, cursor:"pointer", width:100, height:100} 
                     return <img src={imgpath} alt='' onClick={()=>this.fetchdata(imgpath, idx)} style={style}/>
                   }
                 })
